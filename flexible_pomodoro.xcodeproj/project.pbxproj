@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B51704BD2820CEDD00D79332 /* MainCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51704BC2820CEDD00D79332 /* MainCenterView.swift */; };
+		B52CE3DC2834E1310022FBC7 /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52CE3DB2834E1310022FBC7 /* DashBoardView.swift */; };
+		B54F2BB928221AB40076052E /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54F2BB828221AB40076052E /* TreeView.swift */; };
+		B54F2BBB28221ADF0076052E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54F2BBA28221ADF0076052E /* TimerView.swift */; };
+		B54F2BBE282256020076052E /* Prac.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54F2BBD282256020076052E /* Prac.swift */; };
 		B5925BAC281BE9F400831C65 /* flexible_pomodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5925BAB281BE9F400831C65 /* flexible_pomodoroApp.swift */; };
-		B5925BAE281BE9F400831C65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5925BAD281BE9F400831C65 /* ContentView.swift */; };
 		B5925BB0281BE9F700831C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5925BAF281BE9F700831C65 /* Assets.xcassets */; };
 		B5925BB3281BE9F700831C65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5925BB2281BE9F700831C65 /* Preview Assets.xcassets */; };
 		B5925BB5281BE9F700831C65 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5925BB4281BE9F700831C65 /* Persistence.swift */; };
@@ -16,6 +20,8 @@
 		B5925BC2281BE9F700831C65 /* flexible_pomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5925BC1281BE9F700831C65 /* flexible_pomodoroTests.swift */; };
 		B5925BCC281BE9F700831C65 /* flexible_pomodoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5925BCB281BE9F700831C65 /* flexible_pomodoroUITests.swift */; };
 		B5925BCE281BE9F700831C65 /* flexible_pomodoroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5925BCD281BE9F700831C65 /* flexible_pomodoroUITestsLaunchTests.swift */; };
+		B5925BDB281BEC6A00831C65 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5925BDA281BEC6A00831C65 /* MainView.swift */; };
+		B5925BDD281D45B900831C65 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5925BDC281D45B900831C65 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B51704BC2820CEDD00D79332 /* MainCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCenterView.swift; sourceTree = "<group>"; };
+		B52CE3DB2834E1310022FBC7 /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		B54F2BB828221AB40076052E /* TreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeView.swift; sourceTree = "<group>"; };
+		B54F2BBA28221ADF0076052E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		B54F2BBC2822535A0076052E /* flexible-pomodoro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "flexible-pomodoro-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B54F2BBD282256020076052E /* Prac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prac.swift; sourceTree = "<group>"; };
 		B5925BA8281BE9F400831C65 /* flexible_pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flexible_pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5925BAB281BE9F400831C65 /* flexible_pomodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexible_pomodoroApp.swift; sourceTree = "<group>"; };
-		B5925BAD281BE9F400831C65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5925BAF281BE9F700831C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5925BB2281BE9F700831C65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5925BB4281BE9F700831C65 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +59,8 @@
 		B5925BC7281BE9F700831C65 /* flexible_pomodoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexible_pomodoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5925BCB281BE9F700831C65 /* flexible_pomodoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexible_pomodoroUITests.swift; sourceTree = "<group>"; };
 		B5925BCD281BE9F700831C65 /* flexible_pomodoroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexible_pomodoroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5925BDA281BEC6A00831C65 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B5925BDC281D45B900831C65 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +88,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B51704BE2820D3E300D79332 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5925BDC281D45B900831C65 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B51704BF2820D3ED00D79332 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B51704BC2820CEDD00D79332 /* MainCenterView.swift */,
+				B5925BDA281BEC6A00831C65 /* MainView.swift */,
+				B54F2BB828221AB40076052E /* TreeView.swift */,
+				B54F2BBA28221ADF0076052E /* TimerView.swift */,
+				B54F2BBD282256020076052E /* Prac.swift */,
+				B52CE3DB2834E1310022FBC7 /* DashBoardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B5925B9F281BE9F400831C65 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +132,10 @@
 		B5925BAA281BE9F400831C65 /* flexible_pomodoro */ = {
 			isa = PBXGroup;
 			children = (
+				B54F2BBC2822535A0076052E /* flexible-pomodoro-Info.plist */,
+				B51704BF2820D3ED00D79332 /* Views */,
+				B51704BE2820D3E300D79332 /* Model */,
 				B5925BAB281BE9F400831C65 /* flexible_pomodoroApp.swift */,
-				B5925BAD281BE9F400831C65 /* ContentView.swift */,
 				B5925BAF281BE9F700831C65 /* Assets.xcassets */,
 				B5925BB4281BE9F700831C65 /* Persistence.swift */,
 				B5925BB6281BE9F700831C65 /* flexible_pomodoro.xcdatamodeld */,
@@ -263,9 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54F2BBB28221ADF0076052E /* TimerView.swift in Sources */,
+				B54F2BB928221AB40076052E /* TreeView.swift in Sources */,
 				B5925BB5281BE9F700831C65 /* Persistence.swift in Sources */,
-				B5925BAE281BE9F400831C65 /* ContentView.swift in Sources */,
 				B5925BAC281BE9F400831C65 /* flexible_pomodoroApp.swift in Sources */,
+				B54F2BBE282256020076052E /* Prac.swift in Sources */,
+				B5925BDD281D45B900831C65 /* Model.swift in Sources */,
+				B51704BD2820CEDD00D79332 /* MainCenterView.swift in Sources */,
+				B52CE3DC2834E1310022FBC7 /* DashBoardView.swift in Sources */,
+				B5925BDB281BEC6A00831C65 /* MainView.swift in Sources */,
 				B5925BB8281BE9F700831C65 /* flexible_pomodoro.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +470,7 @@
 				DEVELOPMENT_TEAM = Y7G824SH3W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "flexible-pomodoro-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +500,7 @@
 				DEVELOPMENT_TEAM = Y7G824SH3W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "flexible-pomodoro-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

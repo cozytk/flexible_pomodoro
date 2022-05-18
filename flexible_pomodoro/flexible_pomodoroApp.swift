@@ -13,8 +13,7 @@ struct flexible_pomodoroApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MainView()
         }
     }
 }
